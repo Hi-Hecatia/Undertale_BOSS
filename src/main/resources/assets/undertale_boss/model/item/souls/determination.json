@@ -1,0 +1,22 @@
+{
+    //设置该物品的手持方式。
+    "parent": "item/generated",
+    //设置物品材质路径。
+    "textures": {
+        "layer0": "undertale_boss:souls/determination"
+    },
+    "display": {
+    //设置第三人称手持位置。
+        "thirdperson": {
+            "rotation": [ -90, 0, 0 ],
+            "translation": [ 0, 1, -2 ],
+            "scale": [ 0.55, 0.55, 0.55 ]
+        },
+        //设置第一人称手持位置。
+        "firstperson": {
+            "rotation": [ 0, -135, 25 ],
+            "translation": [ 0, 4, 2 ],
+            "scale": [ 1.7, 1.7, 1.7 ]
+        }
+    }
+}

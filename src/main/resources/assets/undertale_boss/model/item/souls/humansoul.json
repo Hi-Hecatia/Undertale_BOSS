@@ -1,0 +1,8 @@
+{
+    //设置该物品的手持方式。
+    "parent": "item/generated",
+    //设置物品材质路径。
+    "textures": {
+        "layer0": "undertale_boss:souls/humansoul"
+    }
+}

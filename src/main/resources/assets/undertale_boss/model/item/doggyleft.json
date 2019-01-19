@@ -1,0 +1,14 @@
+//使用json viewer后的界面。
+/*
+1、对于一个工具或者剑，parent的值应该为"item/handheld"。
+2、对于一个普通的物品，parent的值应该为"item/generated"。
+3、而textures下layer0的值就很明显是材质路径了。
+4、"undertale_boss:items/doggyleft"：就表示表示在assets/undertale_boss/textures/items下有一个doggyleft.png。
+而doggyleft.png是它的材质文件。
+*/
+{
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "undertale_boss:items/doggyleft"
+    }
+}

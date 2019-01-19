@@ -1,0 +1,17 @@
+﻿[
+{
+  "modid": "undertale_boss",
+  "name": "Undertale_BOSSCharacters(传说之下，BOSS人物部分)",
+  "description": "Undertale is the most wonderful game I have ever seen.And this game is so large that I can't add all in my Mod.So I put some BOSSCharacters in this Mod.
+  Soon after,we will see Buildings,Ordinary Mosters and so on.In other Undertale Mods.(Undertale是我目前见过最奇妙的游戏，而这款游戏的内容因为太多了，所以我只能将一些BOSS人物加入此Mod中。不久以后，我们将会见到建筑、普通怪物，在其它Undertale的Mod当中。)",
+  "version": "1.0.0",
+  "mcversion": "${mcversion}",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["d_DongGuanTeEr(Mod author，Mod作者),Toby Fox(Real author,原作者)"],
+  "credits": "MCP guys,Forge Guys,for making this Mod.(MCP伙伴，Forge伙伴，来制作这个Mod。)",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]
