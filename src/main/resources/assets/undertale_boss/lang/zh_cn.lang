@@ -1,4 +1,14 @@
 item.doggyLeft.name=狗剩
 item.humanSoul.name=人类灵魂
-item.deterMination.name=决心
-itemGroup.undertale_boss=传说之下 BOSS人物部分
+item.determination.name=决心
+item.frisksDetermination.name=（福莉斯柯）Frisk的决心
+item.charasDetermination.name=（姹拉）Chara的决心
+item.creamCandyPie.name=奶油糖果派
+item.seaTea.name=海茶
+item.spidersDoughunts.name=蜘蛛甜甜圈
+itemGroup.itemtab_utboss=物品栏
+itemGroup.foodtab_utboss=食物栏
+itemGroup.soultab_utboss=灵魂栏
+potion.torielscare=（托丽尔）Toriel的关爱
+potion.muffetsinvitation=（玛菲特）Muffet的邀请
+potion.undynesdeterrence=（安黛因）Undyne的威慑

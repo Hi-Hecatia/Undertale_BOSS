@@ -1,4 +1,14 @@
 item.doggyLeft.name=DoggyLeft
 item.humanSoul.name=Human Soul
-item.deterMination.name=Determination
-itemGroup.undertale_boss=Undertale_BOSS Characters
+item.determination.name=Determination
+item.frisksDetermination.name=Frisk's Determination
+item.charasDetermination.name=Chara's Determination
+item.creamCandyPie.name=Cream Candy Pie
+item.seaTea.name=Sea Tea
+item.spidersDoughunts.name=Spider's Doughnuts
+itemGroup.itemtab_utboss=Item Tab
+itemGroup.foodtab_utboss=Food Tab
+itemGroup.soultab_utboss=Soul Tab
+potion.torielscare=Toriel's Care
+potion.muffetsinvitation=Muffet's Invitation
+potion.undynesdeterrence=Undyne's Deterrence
