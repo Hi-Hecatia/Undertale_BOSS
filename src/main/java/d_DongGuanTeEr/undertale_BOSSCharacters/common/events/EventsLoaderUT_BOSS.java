@@ -1,11 +1,12 @@
 package d_DongGuanTeEr.undertale_BOSSCharacters.common.events;
 import d_DongGuanTeEr.undertale_BOSSCharacters.Undertale_BOSSCharacters;
-import d_DongGuanTeEr.undertale_BOSSCharacters.common.config.ConfigLoaderUT_BOSS;
+//import net.minecraft.entity.player.EntityPlayer;
+//import net.minecraft.potion.PotionEffect;
 import net.minecraftforge.event.entity.living.LivingEvent;
+//import net.minecraftforge.event.entity.living.LivingHurtEvent;
 import net.minecraftforge.fml.common.eventhandler.EventBus;
 import net.minecraftforge.fml.common.eventhandler.EventPriority;
 import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
-import net.minecraftforge.fml.common.gameevent.PlayerEvent;
 
 //@EventBusSubscriber(modid = Undertale_BOSSCharacters.MODID)
 public class EventsLoaderUT_BOSS {
@@ -30,18 +31,10 @@ public class EventsLoaderUT_BOSS {
 			Undertale_BOSSCharacters.instance.getLogger().info("监听到玩家" + event.getEntityLiving().getName() + "跳跃！");
 		}
 	}
-	// 事件举例。
-	@SubscribeEvent(priority=EventPriority.HIGHEST)
-	public static void onItemPickUp(PlayerEvent.ItemPickupEvent event) {
-		if(event.player.isServerWorld()) {
-			@SuppressWarnings("unused")
-			String infomation=String.format("%s picks up: %s", event.player.getName(), event.pickedUp.getItem());
-			ConfigLoaderUT_BOSS.load();
-		}
-	}
-	
+//================================================================================================================
 	public static void init() {
 		//为自己的EVENT_BUS注册监听器。
 		EVENT_BUS.register(EventsLoaderUT_BOSS.class);
 	}
+//========================================================================================================
 }

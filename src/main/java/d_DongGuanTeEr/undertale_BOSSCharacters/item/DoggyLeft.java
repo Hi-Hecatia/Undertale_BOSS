@@ -1,6 +1,6 @@
 package d_DongGuanTeEr.undertale_BOSSCharacters.item;
 
-import d_DongGuanTeEr.undertale_BOSSCharacters.common.creativetab.CreativeTabsUT_BOSS;
+import d_DongGuanTeEr.undertale_BOSSCharacters.common.creativetab.CreativeTab_UT_BOSS;
 import net.minecraft.item.Item;
 
 public class DoggyLeft extends Item {
@@ -11,6 +11,6 @@ public class DoggyLeft extends Item {
 	public DoggyLeft() {
 		this.maxStackSize = 64;
 		//将物品添加至创造模式物品栏中。
-		this.setCreativeTab(CreativeTabsUT_BOSS.tabUndertale_PartOfTheBOSSMonsters);
+		this.setCreativeTab(CreativeTab_UT_BOSS.ITEMICON);
 	}
 }
