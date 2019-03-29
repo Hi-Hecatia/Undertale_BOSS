@@ -38,7 +38,7 @@ public class CreativeTab_UT_BOSS extends CreativeTabs {
 		}
 	};
 
-	public static final CreativeTab_UT_BOSS FOODICON = new CreativeTab_UT_BOSS(14, "foodtab_utboss") {
+	public static final CreativeTab_UT_BOSS FOODICON = new CreativeTab_UT_BOSS(CREATIVE_TAB_ARRAY.length+custonTabArray[1], "foodtab_utboss") {
 		@SideOnly(Side.CLIENT)
 		public ItemStack getTabIconItem() {
 			// TODO 自动生成的方法存根
